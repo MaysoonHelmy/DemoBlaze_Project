@@ -1,0 +1,32 @@
+﻿Issue Type ,Summary,Description,Linked Issues
+Test,TC-01: Browse products by category successfully,"Precondition: User is on DemoBlaze homepage 
+Steps:
+1. Click “Phones” under CATEGORIES.
+2. Verify displayed products are all phones (e.g., Samsung Galaxy S6, iPhone 6).
+Expected Result:
+Only phone products are displayed. No laptops or monitors appear.
+Priority: High",US-01
+Test,TC-02: Add product to cart and verify cart update,"Precondition: User is viewing a product page (e.g., “Sony Vaio i5”)
+Steps:
+1. Click “Add to cart”.
+2. Click “Cart” in top navigation.
+Expected Result:
+- Alert “Product added.” appears.
+- Cart displays item, quantity 1, total 790.
+Priority: High",US-02
+Test,TC-03: Place order with valid data,"Precondition: Cart contains at least one item 
+Steps:
+1. Click “Place Order”.
+2. Enter Name: “John Doe”, Country: “USA”, Credit Card: “1234567890123456”.
+3. Click “Purchase”.
+Expected Result:
+Order confirmation modal appears with message: “Thank you for your purchase!”
+Priority: High",US-03
+Test,TC-04: Attempt to add product with empty cart interaction (edge case),"Precondition: User has added an item, then cleared cart via browser refresh
+Steps:
+1. Add “Nexus 6” to cart.
+2. Refresh browser.
+3. Open Cart.
+Expected Result:
+Cart is empty (DemoBlaze does not persist cart after refresh). System behaves gracefully with no errors.
+Priority: Medium",US-02

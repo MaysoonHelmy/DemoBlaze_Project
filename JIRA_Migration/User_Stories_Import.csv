@@ -1,0 +1,13 @@
+Issue Type,Summary,Description
+Story,"US-01: Browse products by category,""As a Shopper, I want to browse products by category so that I can find relevant products quickly.","Acceptance Criteria:
+1. Given I am on the homepage, when I click “Phones” under “CATEGORIES”, then I should see only phone products displayed (e.g., Samsung Galaxy S6, iPhone 6).
+2. Given I click “Laptops”, when I navigate to that page, then I should see laptop products (e.g., Sony Vaio i5) and no phones or monitors.
+3. Given I click “Monitors”, when I navigate to that page, then I should see monitor products only."""
+Story,"US-02: View product details & add to cart,""As a Shopper, I want to view product details & add to cart so that I can make informed purchase decisions.","Acceptance Criteria:
+1. Given I am viewing the Phones category, when I click on “Samsung Galaxy S6”, then I should be taken to a detailed product page showing image, price (360), and description.
+2. Given I’m on the product detail page, when I click “Add to cart”, then I should see an alert: “Product added.” and the item should appear in my cart.
+3. Given I click “Previous” or “Next” at the bottom, when I browse pages, then I should see different sets of products without duplication."""
+Story,"""US-03: Manage shopping cart"",""As a Customer, I want to manage shopping cart so that I can review and purchase multiple items.","Acceptance Criteria:
+1. Given I have added “Samsung Galaxy S6” to cart, when I click “Cart” in the top navigation, then I should see the item listed with its name, price, and quantity.
+2. Given I have added “Samsung Galaxy S6” to cart, when I click “Cart” in the top navigation, then I should see the item listed with its name, price, and quantity.
+3. Given I remove an item from the cart, when I click “Remove”, then the item should disappear and the total price should update."""

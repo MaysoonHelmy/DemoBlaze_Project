@@ -1,0 +1,33 @@
+﻿Issue Type ,Summary,Description,Linked Issues
+Bug,DEF-01: Category filter does not update product listing,"Steps to Reproduce:
+1. Go to homepage
+2. Click “Phones” under CATEGORIES
+3. Observe product list
+Expected Result:
+Only phone products displayed
+Actual Result:
+All products still visible
+Severity: High
+Status: Open",TC-01
+Bug,DEF-02: Misleading error message when Name field is empty,"Steps to Reproduce:
+1. Add item to cart
+2. Click “Place Order”
+3. Leave Name empty, fill Credit Card
+4. Click “Purchase”
+Expected Result:
+Alert: “Please fill out Name.”
+Actual Result:
+Alert: “Please fill out Name and Credit Card.”
+Severity: Medium
+Status: Open",TC-03
+Bug,DEF-03: Cart does not consolidate duplicate products,"Steps to Reproduce:
+1. Add item to cart
+2. Click “Place Order”
+3. Leave Name empty, fill Credit Card
+4. Click “Purchase”
+Expected Result:
+Alert: “Please fill out Name.”
+Actual Result:
+Alert: “Please fill out Name and Credit Card.”
+Severity: Medium
+Status: Open",TC-04
